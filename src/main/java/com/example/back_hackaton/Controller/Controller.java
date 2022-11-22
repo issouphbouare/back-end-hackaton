@@ -1,4 +1,4 @@
-package com.example.cahierTexte.Controller;
+package com.example.back_hackaton.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.cahierTexte.Repo.UserRepository;
-import com.example.cahierTexte.model.User;
+import com.example.back_hackaton.Repo.UserRepository;
+import com.example.back_hackaton.model.User;
 
 @RestController
 @CrossOrigin("*")

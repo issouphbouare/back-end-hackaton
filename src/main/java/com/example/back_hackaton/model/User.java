@@ -1,4 +1,4 @@
-package com.example.cahierTexte.model;
+package com.example.back_hackaton.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

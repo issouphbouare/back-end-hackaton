@@ -1,4 +1,4 @@
-package com.example.cahierTexte;
+package com.example.back_hackaton;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -6,14 +6,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
-import com.example.cahierTexte.model.User;
+import com.example.back_hackaton.model.User;
 
 @SpringBootApplication
-public class CahierTexteApplication implements CommandLineRunner {
+public class Back_hackatonApplication implements CommandLineRunner {
 	@Autowired
     private RepositoryRestConfiguration restConfiguration;
 	public static void main(String[] args) {
-		SpringApplication.run(CahierTexteApplication.class, args);
+		SpringApplication.run(Back_hackatonApplication.class, args);
 		
 		
 	}
