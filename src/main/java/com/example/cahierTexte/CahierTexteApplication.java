@@ -6,9 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
-import com.example.cahierTexte.model.Payer;
-import com.example.cahierTexte.model.Professeur;
-import com.example.cahierTexte.model.Seance;
+import com.example.cahierTexte.model.User;
 
 @SpringBootApplication
 public class CahierTexteApplication implements CommandLineRunner {
@@ -21,9 +19,7 @@ public class CahierTexteApplication implements CommandLineRunner {
 	}
 	@Override
 	public void run(String... args) throws Exception {
-		restConfiguration.exposeIdsFor(Professeur.class);
-		restConfiguration.exposeIdsFor(Seance.class);
-		restConfiguration.exposeIdsFor(Payer.class);
+		restConfiguration.exposeIdsFor(User.class);
 		// TODO Auto-generated method stub
 		
 	}
